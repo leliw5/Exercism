@@ -1,5 +1,7 @@
 import re
-def is_isogram(string):
+
+
+def is_isogram(string: str):
     letters = []
     for letter in re.sub('[ -]', "", string.lower()):
         if letter in letters:

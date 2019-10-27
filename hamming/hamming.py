@@ -1,4 +1,4 @@
-def distance(strand_a, strand_b):
+def distance(strand_a: list, strand_b: list) -> int:
     differences = 0
     if len(strand_a) != len(strand_b):
         raise ValueError("Wrong length of strings!")
