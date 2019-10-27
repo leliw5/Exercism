@@ -1,6 +1,7 @@
 import re
 
-def word_count(phrase):
+
+def word_count(phrase: str) -> str:
     counts = {}
     words = re.compile(r"[a-zA-Z0-9]+'*[a-zA-Z0-9]+|[a-zA-Z0-9]+")
     for word in re.findall(words, phrase.lower()):

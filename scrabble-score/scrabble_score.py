@@ -1,5 +1,5 @@
-def score(word):
-    values = {}
+def score(word: str) -> int:
+    values = dict()
     values[1] = 'A, E, I, O, U, L, N, R, S, T'.split(", ")
     values[2] = 'D, G'.split(", ")
     values[3] = 'B, C, M, P'.split(", ")

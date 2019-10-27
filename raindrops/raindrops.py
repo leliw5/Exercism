@@ -1,4 +1,4 @@
-def raindrops(number):
+def raindrops(number: int) -> str:
     ans = ""
     if number % 3 == 0:
         ans += "Pling"
